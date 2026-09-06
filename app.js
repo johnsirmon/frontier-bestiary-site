@@ -12,7 +12,7 @@
     ['multilingual', 'Multilingual'], ['instruction', 'Instruction'], ['math', 'Math']
   ];
   const positions = [13.5, 38.5, 63.5, 87.5];
-  const portraitPositions = [9, 42, 73, 100];
+  const portraitAssets = ['portrait-anthropic.png', 'portrait-openai.png', 'portrait-google.png', 'portrait-xai.png'];
   const state = { dimension: 'overall', selected: 0, detailOpen: false, compareA: null, compareB: null, awaitingCompare: false };
   let detailTrigger = null;
 
@@ -220,7 +220,7 @@
       button.setAttribute('aria-label', `${item.name}, ${displayScore(itemValue)} for ${labelFor(state.dimension)}${itemRank ? `, rank ${itemRank} among reported models` : ''}`);
     });
     nodes.roster.forEach((button, index) => button.setAttribute('aria-pressed', String(index === state.selected)));
-    nodes.mobileStage.style.setProperty('--portrait-position', `${portraitPositions[state.selected]}%`);
+    nodes.mobileStage.style.setProperty('--portrait-url', `url('assets/${portraitAssets[state.selected]}')`);
     nodes.mobileStage.style.setProperty('--c', model.colors[0]);
     nodes.mobileArt.setAttribute('aria-label', `${model.title}, the illustrated identity for ${model.name}`);
     nodes.stageCount.textContent = `${state.selected + 1} of ${current.models.length}`;

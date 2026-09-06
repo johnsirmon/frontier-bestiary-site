@@ -43,15 +43,15 @@ window.BESTIARY_DATA = {
       "sourceFamilies": 3,
       "methodology": "bench-align-v5.5-2026-09-04",
       "rank": 1,
-      "title": "EMBER SOVEREIGN",
-      "species": "Crowned reasoning wyrm",
+      "title": "LANTERNHART",
+      "species": "Woven-maned forest cervid",
       "glyph": "A",
       "colors": [
         "#ff9b63",
-        "#ff4d6d",
-        "#6d274d"
+        "#ffcc88",
+        "#6d3b27"
       ],
-      "temperament": "Deliberate · agentic · watchful",
+      "temperament": "Patient · attentive · quietly authoritative",
       "sourceUrl": "https://benchlm.ai/models/claude-fable-5-1"
     },
     {
@@ -82,15 +82,15 @@ window.BESTIARY_DATA = {
       "sourceFamilies": 2,
       "methodology": "bench-align-v5.5-2026-09-04",
       "rank": 2,
-      "title": "ASTRAL CHIMERA",
-      "species": "Celestial tool-beast",
+      "title": "OPAL NAVIGATOR",
+      "species": "Air-swimming tool cuttlefish",
       "glyph": "O",
       "colors": [
-        "#5fffe2",
-        "#9bff63",
-        "#164d5d"
+        "#72f4e5",
+        "#b9eaff",
+        "#235c68"
       ],
-      "temperament": "Analytical · adaptive · tool-hungry",
+      "temperament": "Inventive · flexible · quietly delighted",
       "sourceUrl": "https://benchlm.ai/models/gpt-6-astra"
     },
     {
@@ -121,15 +121,15 @@ window.BESTIARY_DATA = {
       "sourceFamilies": 2,
       "methodology": "bench-align-v5.5-2026-09-04",
       "rank": 3,
-      "title": "PRISM LEVIATHAN",
-      "species": "Multimodal sky-manta",
+      "title": "PRISM SWIFT",
+      "species": "Kingfisher sensory scout",
       "glyph": "G",
       "colors": [
-        "#68a9ff",
-        "#c67cff",
-        "#efca58"
+        "#55b8ff",
+        "#35e3d0",
+        "#f3a765"
       ],
-      "temperament": "Fast · panoramic · many-eyed",
+      "temperament": "Bright · perceptive · quick to act",
       "sourceUrl": "https://benchlm.ai/models/gemini-3-8-flash"
     },
     {
@@ -160,15 +160,15 @@ window.BESTIARY_DATA = {
       "sourceFamilies": 3,
       "methodology": "bench-align-v5.5-2026-09-04",
       "rank": 4,
-      "title": "STORM DIREWOLF",
-      "species": "Real-time thunder hunter",
+      "title": "CINDER FOX",
+      "species": "Frontier listening fox",
       "glyph": "X",
       "colors": [
-        "#ff5b65",
-        "#e5eef8",
-        "#283449"
+        "#ff795f",
+        "#d7e1e8",
+        "#343b45"
       ],
-      "temperament": "Restless · sharp · current-seeking",
+      "temperament": "Curious · independent · lightly mischievous",
       "sourceUrl": "https://benchlm.ai/models/grok-4-6"
     }
   ]
