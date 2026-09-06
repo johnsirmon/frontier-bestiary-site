@@ -2,11 +2,23 @@
 window.BESTIARY_HISTORY = [
   {
     "date": "2026-09-06",
+    "sourceUpdated": "September 4, 2026",
+    "source": "https://benchlm.ai/",
+    "methodologyUrl": "https://benchlm.ai/methodology",
     "models": [
       {
-        "provider": "Anthropic",
+        "id": 416,
         "name": "Claude Fable 5.1",
         "slug": "claude-fable-5-1",
+        "provider": "Anthropic",
+        "status": "Current",
+        "context": "1M",
+        "inputPrice": 10,
+        "outputPrice": 50,
+        "speed": 66,
+        "latency": 282.34,
+        "arena": 1504.21,
+        "releaseDate": "2026-09-01",
         "overall": 82.95,
         "categories": {
           "agentic": 78.7,
@@ -18,12 +30,34 @@ window.BESTIARY_HISTORY = [
           "instruction": null,
           "math": null
         },
-        "confidence": "supported"
+        "confidence": "supported",
+        "sourceFamilies": 3,
+        "methodology": "bench-align-v5.5-2026-09-04",
+        "rank": 1,
+        "title": "EMBER SOVEREIGN",
+        "species": "Crowned reasoning wyrm",
+        "glyph": "A",
+        "colors": [
+          "#ff9b63",
+          "#ff4d6d",
+          "#6d274d"
+        ],
+        "temperament": "Deliberate · agentic · watchful",
+        "sourceUrl": "https://benchlm.ai/models/claude-fable-5-1"
       },
       {
-        "provider": "OpenAI",
+        "id": 423,
         "name": "GPT-6 Astra",
         "slug": "gpt-6-astra",
+        "provider": "OpenAI",
+        "status": "Current",
+        "context": "1.05M",
+        "inputPrice": 10,
+        "outputPrice": 50,
+        "speed": null,
+        "latency": null,
+        "arena": null,
+        "releaseDate": "2026-09-03",
         "overall": 81.05,
         "categories": {
           "agentic": 70.36,
@@ -35,12 +69,34 @@ window.BESTIARY_HISTORY = [
           "instruction": null,
           "math": 85.2
         },
-        "confidence": "estimated"
+        "confidence": "estimated",
+        "sourceFamilies": 2,
+        "methodology": "bench-align-v5.5-2026-09-04",
+        "rank": 2,
+        "title": "ASTRAL CHIMERA",
+        "species": "Celestial tool-beast",
+        "glyph": "O",
+        "colors": [
+          "#5fffe2",
+          "#9bff63",
+          "#164d5d"
+        ],
+        "temperament": "Analytical · adaptive · tool-hungry",
+        "sourceUrl": "https://benchlm.ai/models/gpt-6-astra"
       },
       {
-        "provider": "Google",
+        "id": 419,
         "name": "Gemini 3.8 Flash",
         "slug": "gemini-3-8-flash",
+        "provider": "Google",
+        "status": "Current",
+        "context": "1M",
+        "inputPrice": 0.75,
+        "outputPrice": 3.75,
+        "speed": 327,
+        "latency": 10.75,
+        "arena": 1493.85,
+        "releaseDate": "2026-09-02",
         "overall": 78.41,
         "categories": {
           "agentic": 67.59,
@@ -52,12 +108,34 @@ window.BESTIARY_HISTORY = [
           "instruction": null,
           "math": null
         },
-        "confidence": "supported"
+        "confidence": "supported",
+        "sourceFamilies": 2,
+        "methodology": "bench-align-v5.5-2026-09-04",
+        "rank": 3,
+        "title": "PRISM LEVIATHAN",
+        "species": "Multimodal sky-manta",
+        "glyph": "G",
+        "colors": [
+          "#68a9ff",
+          "#c67cff",
+          "#efca58"
+        ],
+        "temperament": "Fast · panoramic · many-eyed",
+        "sourceUrl": "https://benchlm.ai/models/gemini-3-8-flash"
       },
       {
-        "provider": "xAI",
+        "id": 389,
         "name": "Grok 4.6",
         "slug": "grok-4-6",
+        "provider": "xAI",
+        "status": "Current",
+        "context": "500K",
+        "inputPrice": 2,
+        "outputPrice": 6,
+        "speed": 65,
+        "latency": 49.7,
+        "arena": 1461.15,
+        "releaseDate": "2026-08-12",
         "overall": 70.19,
         "categories": {
           "agentic": 69.86,
@@ -69,7 +147,20 @@ window.BESTIARY_HISTORY = [
           "instruction": null,
           "math": null
         },
-        "confidence": "supported"
+        "confidence": "supported",
+        "sourceFamilies": 3,
+        "methodology": "bench-align-v5.5-2026-09-04",
+        "rank": 4,
+        "title": "STORM DIREWOLF",
+        "species": "Real-time thunder hunter",
+        "glyph": "X",
+        "colors": [
+          "#ff5b65",
+          "#e5eef8",
+          "#283449"
+        ],
+        "temperament": "Restless · sharp · current-seeking",
+        "sourceUrl": "https://benchlm.ai/models/grok-4-6"
       }
     ]
   }
