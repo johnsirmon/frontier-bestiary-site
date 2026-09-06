@@ -96,7 +96,7 @@
       </div>
 
       <div class="arena" id="model-selector" aria-label="Select a model">
-        <img class="world-art" src="assets/bestiary-world.png" alt="Four illustrated biomechanical creatures representing the selected models">
+        <img class="world-art" src="assets/bestiary-world.png" alt="Four illustrated apex creatures representing the selected models: a siege hexapod, armored constrictor, blade-armed biped, and shellbreaker">
         <div class="arena-shade" aria-hidden="true"></div>
         ${current.models.map(selectionButton).join('')}
       </div>

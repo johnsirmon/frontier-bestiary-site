@@ -34,15 +34,15 @@ window.BESTIARY_HISTORY = [
         "sourceFamilies": 3,
         "methodology": "bench-align-v5.5-2026-09-04",
         "rank": 1,
-        "title": "LANTERNHART",
-        "species": "Woven-maned forest cervid",
+        "title": "Vaurath, the Still Verdict",
+        "species": "Crownback siege hexapod",
         "glyph": "A",
         "colors": [
-          "#ff9b63",
-          "#ffcc88",
-          "#6d3b27"
+          "#c58b62",
+          "#e0c8a5",
+          "#352821"
         ],
-        "temperament": "Patient · attentive · quietly authoritative",
+        "temperament": "Ancient · territorial · deliberately still",
         "sourceUrl": "https://benchlm.ai/models/claude-fable-5-1"
       },
       {
@@ -73,15 +73,15 @@ window.BESTIARY_HISTORY = [
         "sourceFamilies": 2,
         "methodology": "bench-align-v5.5-2026-09-04",
         "rank": 2,
-        "title": "OPAL NAVIGATOR",
-        "species": "Air-swimming tool cuttlefish",
+        "title": "Ilyr, the Pale Interdict",
+        "species": "Vaultcoil constrictor",
         "glyph": "O",
         "colors": [
-          "#72f4e5",
-          "#b9eaff",
-          "#235c68"
+          "#aebdc2",
+          "#e2e8e6",
+          "#485760"
         ],
-        "temperament": "Inventive · flexible · quietly delighted",
+        "temperament": "Controlled · observant · precisely decisive",
         "sourceUrl": "https://benchlm.ai/models/gpt-6-astra"
       },
       {
@@ -112,15 +112,15 @@ window.BESTIARY_HISTORY = [
         "sourceFamilies": 2,
         "methodology": "bench-align-v5.5-2026-09-04",
         "rank": 3,
-        "title": "PRISM SWIFT",
-        "species": "Kingfisher sensory scout",
+        "title": "Serekh, the Narrow Storm",
+        "species": "Razorreach pursuit biped",
         "glyph": "G",
         "colors": [
-          "#55b8ff",
-          "#35e3d0",
-          "#f3a765"
+          "#4d9295",
+          "#9e8ac7",
+          "#19282c"
         ],
-        "temperament": "Bright · perceptive · quick to act",
+        "temperament": "Watchful · compressed · ready to launch",
         "sourceUrl": "https://benchlm.ai/models/gemini-3-8-flash"
       },
       {
@@ -151,15 +151,15 @@ window.BESTIARY_HISTORY = [
         "sourceFamilies": 3,
         "methodology": "bench-align-v5.5-2026-09-04",
         "rank": 4,
-        "title": "CINDER FOX",
-        "species": "Frontier listening fox",
+        "title": "Drovak, the Furnace Lock",
+        "species": "Ironmaw terrestrial shellbreaker",
         "glyph": "X",
         "colors": [
-          "#ff795f",
-          "#d7e1e8",
-          "#343b45"
+          "#b5654b",
+          "#d7c09a",
+          "#38211d"
         ],
-        "temperament": "Curious · independent · lightly mischievous",
+        "temperament": "Blunt · opportunistic · patiently brutal",
         "sourceUrl": "https://benchlm.ai/models/grok-4-6"
       }
     ]
