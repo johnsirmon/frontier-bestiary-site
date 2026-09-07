@@ -30,6 +30,8 @@
   };
 
   const finiteOrNull = value => value == null || value === '' ? null : (Number.isFinite(Number(value)) ? Number(value) : null);
+  const providerKey = model => String(model?.providerId || model?.provider || '')
+    .trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
   const identityOrder = (a, b) => String(a.providerId).localeCompare(String(b.providerId)) || String(a.modelId).localeCompare(String(b.modelId));
 
   function selectProviderLeaders(records, limit = 5) {
@@ -53,6 +55,7 @@
     masterSha256: '0736819bdfac4aa4a577c2f135ecaa56a50883a51714a228d65ad78542ac2266',
     providerArt,
     finiteOrNull,
+    providerKey,
     selectProviderLeaders
   });
 })();
